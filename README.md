@@ -44,4 +44,5 @@ Syötä positiivinen kokonaisluku: 27
 ### Versio 2.0
 Ohjelmassa annetaan neljäs vaihtoehto: piirtää ja tallentaa visualisointi iteroinnista, missä x-akselilla on iterointivaihe (eli suoritusaika) ja y-akselilla lukujonon arvo iterointivaiheessa.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Collatz5.svg/800px-Collatz5.svg.png)
+
 Lopullisen kuvan ei tarvitse olla täsmälleen saman näköinen. Se on tässä havainnolistamista varten. Helpoin tapa tulostaa tämä lienee [Gnujavaplotilla](http://javaplot.panayotis.com/).
