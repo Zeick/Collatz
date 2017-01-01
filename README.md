@@ -14,17 +14,26 @@ Tämän jälkeen operaatiota toistetaan, kunnes saavutaan lukuun 1. Collatzin ko
 Ohjelmointikielenä toimii Java ja piirto-ohjelmana Gnujavaplot.
 
 ### Projektin edistyminen
-01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
+01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub-tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
 Alustavan ohjelman käyttöprotokollat (add, commit, push, pull...) on myös esitelty. :smile:
 
 ### Versio 1.0
-Ohjelma kysyy käyttäjältä positiivisen kokonaisluvun. Jos luku on positiivinen kokonaisluku, iteroidaan ja kerrotaan kuinka monta iteraatiokertaa kului ennen kuin saavuttiin lukuun 1.
+Ohjelmaa käynnistettäessä tulostuu tervetuloviesti. Ohjelma kysyy käyttäjältä positiivisen kokonaisluvun. Jos luku on positiivinen kokonaisluku, iteroidaan ja kerrotaan kuinka monta iteraatiokertaa kului ennen kuin saavuttiin lukuun 1. Jos luku ei ole positiivinen, tulostetaan virheilmoitus ja poistutaan ohjelmasta.
 
 Esimerkki ohjelman toiminnasta:
 
 ```
+Tervetuloa!
 Syötä positiivinen kokonaisluku: 27
 111 iteraatiota
+```
+
+Esimerkki virheen käsittelystä:
+
+```
+Tervetuloa!
+Syötä positiivinen kokonaisluku: ai siis mikä
+Virhe: Syötteen on oltava positiivinen kokonaisluku!
 ```
 ### Versio 1.1
 Ohjelma tulostaa jokaisessa iteraatiossa myös välivaiheen.
@@ -37,15 +46,18 @@ Syötä positiivinen kokonaisluku: 27
 111 iteraatiota
 ```
 ### Versio 1.2
-Ohjelma antaa kolme vaihtoehtoa käyttäjälle. Ensimmäinen vaihtoehto tulostaa vain iteraatioiden määrän, toinen kaikki iteraatiot ja kolmas kelaa taaksepäin (rewind) iteraatiotulostetta jokaisessa vaiheessa.
+Ohjelma antaa neljä vaihtoehtoa käyttäjälle. Ensimmäinen vaihtoehto tulostaa vain iteraatioiden määrän, toinen kaikki iteraatiot ja kolmas kelaa taaksepäin (rewind) iteraatiotulostetta jokaisessa vaiheessa. Neljäs vaihtoehto lopettaa ohjelman. Ohjelmasta poistuessa tulostetaan kohtelias hyvästelyviesti.
 Esimerkki ohjelman toiminnasta:
 ```
 (1) Tulosta iteraatioiden määrä
 (2) Tulosta kaikki iteraatiot
 (3) Tulosta iteraatio reaaliajassa
+(4) Lopeta
 ? 1
 Syötä positiivinen kokonaisluku: 27
 111 iteraatiota
+? 4
+Kiitos ja näkemiin!
 ```
 ### Versio 2.0
 Ohjelmassa annetaan neljäs vaihtoehto: piirtää ja tallentaa visualisointi iteroinnista, missä x-akselilla on iterointivaihe (eli suoritusaika) ja y-akselilla lukujonon arvo iterointivaiheessa.
