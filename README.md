@@ -11,6 +11,10 @@ Tämän jälkeen operaatiota toistetaan, kunnes saavutaan lukuun 1. Collatzin ko
 ## Ohjelmointisuunnitelma
 Ohjelmointikielenä toimii Java ja piirto-ohjelmana Gnujavaplot.
 
+### Projektin edistyminen (Eritellään vaiheita mitä on saavutettu, kirjattuun pvm. mennessä)q
+01012017: Projekti on aloitettu ja sen jäseset ovat luoneet GIT HUB tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
+Alustavan ohjelman käytttö protokollat( git add git commit git push git pull) on myös esitelty. 
+
 ### Versio 1.0
 Ohjelma kysyy käyttäjältä positiivisen kokonaisluvun. Jos luku on positiivinen kokonaisluku, iteroidaan ja kerrotaan kuinka monta iteraatiokertaa kului ennen kuin saavuttiin lukuun 1.
 
