@@ -1,6 +1,8 @@
 # Collatz-projekti
 Projektin tavoitteena on tehdä kokeellinen Java-ohjelma [Collatzin konjektuurin](http://en.wikipedia.org/wiki/Collatz_conjecture) visualisoimiseen ja testaamiseen pienillä luvuilla.
 
+Projektin edistymistä seurataan alla. Siinä eritellään vaiheita mitä on saavutettu kirjattuun päivämäärään mennessä.
+
 ## Konjektuuri
 Jos luku on parillinen, jaetaan se kahdella. Jos se on pariton, se kerrotaan kolmella ja lisätään siihen yksi:
 
@@ -11,9 +13,9 @@ Tämän jälkeen operaatiota toistetaan, kunnes saavutaan lukuun 1. Collatzin ko
 ## Ohjelmointisuunnitelma
 Ohjelmointikielenä toimii Java ja piirto-ohjelmana Gnujavaplot.
 
-### Projektin edistyminen (Eritellään vaiheita mitä on saavutettu, kirjattuun pvm. mennessä)q
-01012017: Projekti on aloitettu ja sen jäseset ovat luoneet GIT HUB tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
-Alustavan ohjelman käytttö protokollat( git add git commit git push git pull) on myös esitelty. 
+### Projektin edistyminen
+01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
+Alustavan ohjelman käyttöprotokollat (add, commit, push, pull...) on myös esitelty. :smile:
 
 ### Versio 1.0
 Ohjelma kysyy käyttäjältä positiivisen kokonaisluvun. Jos luku on positiivinen kokonaisluku, iteroidaan ja kerrotaan kuinka monta iteraatiokertaa kului ennen kuin saavuttiin lukuun 1.
