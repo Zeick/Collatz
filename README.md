@@ -14,7 +14,7 @@ Tämän jälkeen operaatiota toistetaan, kunnes saavutaan lukuun 1. Collatzin ko
 Ohjelmointikielenä toimii Java ja piirto-ohjelmana Gnujavaplot.
 
 ### Projektin edistyminen
-01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
+01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub-tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
 Alustavan ohjelman käyttöprotokollat (add, commit, push, pull...) on myös esitelty. :smile:
 
 ### Versio 1.0
