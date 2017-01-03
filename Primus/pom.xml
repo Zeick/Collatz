@@ -9,12 +9,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-<<<<<<< HEAD
-    </properties><build> 
-=======
     </properties>
     <build> 
->>>>>>> 6978cecc0158986f6284aed7ba85753327cd27e4
        <plugins>
            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -37,9 +33,5 @@
                 </executions>
             </plugin>
         </plugins>
-<<<<<<< HEAD
-    </build>        
-=======
     </build>     
->>>>>>> 6978cecc0158986f6284aed7ba85753327cd27e4
 </project>
