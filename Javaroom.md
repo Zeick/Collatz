@@ -18,5 +18,6 @@ Git ei tajua onko tiedostossa oltava se koodinpätkä joka on HEADin ja yhtäsuu
 <<<<< HEAD
 ==========
 >>>>>> [hex-koodi]
+```
 
 poistetaan.
