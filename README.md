@@ -11,7 +11,7 @@ Jos luku on parillinen, jaetaan se kahdella. Jos se on pariton, se kerrotaan kol
 Tämän jälkeen operaatiota toistetaan, kunnes saavutaan lukuun 1. Collatzin konjektuurin mukaan tämä prosessi johtaa aina lukuun 1, riippumatta siitä mikä positiivinen kokonaisluku valitaan aloitusarvoksi.
 
 ## Ohjelmointisuunnitelma
-Ohjelmointikielenä toimii Java ja piirto-ohjelmana Gnujavaplot.
+Ohjelmointikielenä toimii Java ja piirto-ohjelmana [JavaPlot 0.5.0](http://javaplot.panayotis.com/).
 
 ### Projektin edistyminen
 01012017: Projekti on aloitettu ja sen jäsenet ovat luoneet GitHub-tunnukset ja aktiivijäsenten koneisiin on luotun .git piilohakemisto, jota käytetään versionhalilntaan. 
@@ -63,4 +63,4 @@ Kiitos ja näkemiin!
 Ohjelmassa annetaan neljäs vaihtoehto: piirtää ja tallentaa visualisointi iteroinnista, missä x-akselilla on iterointivaihe (eli suoritusaika) ja y-akselilla lukujonon arvo iterointivaiheessa.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Collatz5.svg/800px-Collatz5.svg.png)
 
-Lopullisen kuvan ei tarvitse olla täsmälleen saman näköinen. Se on tässä havainnolistamista varten. Helpoin tapa tulostaa tämä lienee [Gnujavaplotilla](http://javaplot.panayotis.com/).
+Lopullisen kuvan ei tarvitse olla täsmälleen saman näköinen. Se on tässä havainnolistamista varten.
