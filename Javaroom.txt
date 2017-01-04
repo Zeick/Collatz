@@ -1,3 +1,0 @@
-// Jos projekti edistyy ei selostusta ole hyvä sotkea turhilla kommenteilla jotka eivät ole suoraan relevantteja, tämä voisi olla hyvä paikka välittää tietoa tai toivomuksia 
-projektin edistymisestä // 
-
