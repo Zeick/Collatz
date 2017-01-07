@@ -1,4 +1,9 @@
 /Primus/nbactions.xml
-/Primus/target/
+/Primus/target
+
+# Testitiedosto(t)
+/Primus/src/main/java/testi.java
+
+# Mac OS X:n automaattiseti muodostamia hakemistotietotiedostoja
 *DS_Store
 

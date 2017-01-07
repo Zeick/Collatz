@@ -4,7 +4,7 @@ import Collatz.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner lukija = new Scanner(System.in);
         Collatz col = new Collatz(lukija);
         int valinta;
@@ -12,16 +12,19 @@ public class Main {
         while (true) {
             tulostaValikko();
             valinta = Integer.parseInt(lukija.nextLine());
-            if (valinta == 1) {
-                col.montakoIteraatiota();
+            if (valinta == 4) {
+                break;
             } else if (valinta == 2) {
                 col.tulostusPaalle();
-                col.montakoIteraatiota();
             } else if (valinta == 3) {
-                System.out.println("Rakenteilla...");
-            } else if (valinta == 4) {
-                break;
+                col.realTimePaalle();
+            } else if (valinta == 1) {
+                ;
+            } else {
+                continue;
             }
+            col.montakoIteraatiota();
+            Thread.sleep(3000);
         }
         lopputekstit();
     }

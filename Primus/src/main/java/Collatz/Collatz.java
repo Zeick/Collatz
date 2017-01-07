@@ -15,24 +15,29 @@ public class Collatz {
 
     private Scanner lukija;
     private int iteraatiot;
-    private int luku;
+    private long luku;
     private boolean printAll;
+    private boolean realTime;
 
     public Collatz(Scanner lukija) {
         this.lukija = lukija;
         reset();
     }
 
-    public void reset(){
+    public void reset() {
         this.iteraatiot = 0;
-        this.printAll = false;
+        this.printAll = this.realTime = false;
     }
-    
+
     public void tulostusPaalle() {
         this.printAll = true;
     }
 
-    public void montakoIteraatiota() {
+    public void realTimePaalle() {
+        this.realTime = true;
+    }
+
+    public void montakoIteraatiota() throws InterruptedException {
         kysyLuku();
         while (luku > 1) {
             iteroi();
@@ -42,22 +47,27 @@ public class Collatz {
         reset();
     }
 
-    public void iteroi() {
-        int jakojaannos = luku % 2;
-        if (jakojaannos == 0) {
+    public void iteroi() throws InterruptedException {
+        if (luku % 2 == 0) {
             luku = luku / 2;
         } else {
             luku = (luku * 3) + 1;
         }
         if (printAll) {
             System.out.println(luku);
+        } else if (realTime) {
+            System.out.print(luku);
+            Thread.sleep(300);
+            System.out.print("\r");
+            System.out.print("                    ");
+            System.out.print("\r");
         }
     }
 
     public void kysyLuku() {
         System.out.print("Syötä positiivinen kokonaisluku: ");
         try {
-            luku = Integer.parseInt(lukija.nextLine());
+            luku = Long.parseLong(lukija.nextLine());
         } catch (Exception e) {
             System.out.println("VIRHE: Et syöttänyt lukua.");
             return;
