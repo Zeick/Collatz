@@ -16,34 +16,44 @@ public class Collatz {
     private Scanner lukija;
     private int iteraatiot;
     private int luku;
+    private boolean printAll;
 
     public Collatz(Scanner lukija) {
         this.lukija = lukija;
+        reset();
+    }
+
+    public void reset(){
         this.iteraatiot = 0;
+        this.printAll = false;
+    }
+    
+    public void tulostusPaalle() {
+        this.printAll = true;
     }
 
     public void montakoIteraatiota() {
         kysyLuku();
-        while(luku > 1){
+        while (luku > 1) {
             iteroi();
             iteraatiot++;
-        } 
-        System.out.println("Iteraatioita suoritettu__ "+iteraatiot);
+        }
+        System.out.println("Iteraatioita suoritettu " + iteraatiot);
+        reset();
     }
 
-    public void iteroi(){
+    public void iteroi() {
         int jakojaannos = luku % 2;
         if (jakojaannos == 0) {
-            luku  = luku / 2;
-            System.out.println(luku);
-        } else { 
-            luku = (luku * 3) + 1; 
-            System.out.println(luku);
-           
+            luku = luku / 2;
+        } else {
+            luku = (luku * 3) + 1;
         }
-           
+        if (printAll) {
+            System.out.println(luku);
+        }
     }
-    
+
     public void kysyLuku() {
         System.out.print("Syötä positiivinen kokonaisluku: ");
         try {

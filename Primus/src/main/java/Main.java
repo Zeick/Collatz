@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import Collatz.*;
-        
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,7 +15,8 @@ public class Main {
             if (valinta == 1) {
                 col.montakoIteraatiota();
             } else if (valinta == 2) {
-                System.out.println("Rakenteilla...");
+                col.tulostusPaalle();
+                col.montakoIteraatiota();
             } else if (valinta == 3) {
                 System.out.println("Rakenteilla...");
             } else if (valinta == 4) {
@@ -37,10 +38,10 @@ public class Main {
 
     public static void tulostaValikko() {
         System.out.print("----------------------------------------\n"
-                         + "|(1) Tulosta iteraatioiden määrä       |\n"
-                         + "|(2) Tulosta kaikki iteraatiot         |\n"
-                         + "|(3) Tulosta iteraatio reaaliajassa    |\n"
-                         + "|(4) Lopeta                            |\n"
-                         + "----------------------------------------\n? ");
+                + "|(1) Tulosta iteraatioiden määrä       |\n"
+                + "|(2) Tulosta kaikki iteraatiot         |\n"
+                + "|(3) Tulosta iteraatio reaaliajassa    |\n"
+                + "|(4) Lopeta                            |\n"
+                + "----------------------------------------\n? ");
     }
 }
