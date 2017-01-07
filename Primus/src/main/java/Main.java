@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import Collatz.*;
-
+        
 public class Main {
 
     public static void main(String[] args) {
