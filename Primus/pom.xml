@@ -9,14 +9,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-<<<<<<< HEAD
-    </properties><build> 
-=======
     </properties>
     <build> 
->>>>>>> 6978cecc0158986f6284aed7ba85753327cd27e4
-       <plugins>
-           <plugin>
+        <plugins>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>1.6</version>
@@ -39,7 +35,7 @@
         </plugins>
 <<<<<<< HEAD
     </build>        
-=======
-    </build>     
+    =======
+</build>     
 >>>>>>> 6978cecc0158986f6284aed7ba85753327cd27e4
 </project>
