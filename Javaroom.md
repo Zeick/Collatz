@@ -25,5 +25,5 @@ poistetaan.
 ## X11-IKKUNA
 DISPLAY-ympäristömuuttujaan on asetettava XQuartz-ohjelman sijainti, joka on hakemistossa
 ```
-/private/tmp/com.(jotain...)/(jotain)XQuartz:0
+/private/tmp/com.apple.launchd.(JOKIN KOODI)/org.macosforge.xquartz:0
 ```
