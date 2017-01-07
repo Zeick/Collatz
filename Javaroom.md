@@ -21,3 +21,9 @@ Git ei tajua onko tiedostossa oltava se koodinpätkä joka on HEADin ja yhtäsuu
 ```
 
 poistetaan.
+
+## X11-IKKUNA
+DISPLAY-ympäristömuuttujaan on asetettava XQuartz-ohjelman sijainti, joka on hakemistossa
+```
+/private/tmp/com.(jotain...)/(jotain)XQuartz:0
+```
