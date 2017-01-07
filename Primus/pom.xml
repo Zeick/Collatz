@@ -33,9 +33,5 @@
                 </executions>
             </plugin>
         </plugins>
-<<<<<<< HEAD
     </build>        
-    =======
-</build>     
->>>>>>> 6978cecc0158986f6284aed7ba85753327cd27e4
 </project>
