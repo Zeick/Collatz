@@ -28,3 +28,6 @@ DISPLAY-ympäristömuuttujaan on asetettava XQuartz-ohjelman sijainti, joka on h
 /private/tmp/com.apple.launchd.(JOKIN KOODI)/org.macosforge.xquartz:0
 ```
 Jos ei toimi, asennetta XQuartz suoraan [tekijän kotisivulta](https://www.xquartz.org/).
+
+TÄMÄ ON TOIMENPIDE  SUORITETTU ja se voidaan kirjata edistymisraporttiin. 
+
