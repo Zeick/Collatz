@@ -84,8 +84,8 @@ public class demo {
         p.getAxis("x").setLabel("X axis", "Arial", 20);
         p.getAxis("y").setLabel("Y axis");
 
-        p.getAxis("x").setBoundaries(-30, 20);
-        p.setKey(JavaPlot.Key.TOP_RIGHT);
+        p.getAxis("x").setBoundaries(-5, 5);
+/*        p.setKey(JavaPlot.Key.TOP_RIGHT);
 
         double[][] plot = {{1, 1.1}, {2, 2.2}, {3, 3.3}, {4, 4.3}};
         DataSetPlot s = new DataSetPlot(plot);
@@ -96,10 +96,10 @@ public class demo {
         stl.setLineType(NamedPlotColor.GOLDENROD);
         stl.setPointType(5);
         stl.setPointSize(8);
-        p.addPlot("sin(x)");
+        p.addPlot("sin(x)"); 
 
-        p.newGraph();
-        p.addPlot("sin(x)");
+        p.newGraph(); */
+        p.addPlot("exp(-x*x)");
 
 /*        p.newGraph3D();
         double[][] plot3d = {{1, 1.1, 3}, {2, 2.2, 3}, {3, 3.3, 3.4}, {4, 4.3, 5}};
