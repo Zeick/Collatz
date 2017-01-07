@@ -26,12 +26,22 @@ public class Collatz {
         kysyLuku();
         while(luku > 1){
             iteroi();
-        }
+            iteraatiot++;
+        } 
+        System.out.println("Iteraatioita suoritettu__ "+iteraatiot);
     }
 
     public void iteroi(){
-        System.out.println("iteroidaan...");
-        luku = 1;
+        int jakojaannos = luku % 2;
+        if (jakojaannos == 0) {
+            luku  = luku / 2;
+            System.out.println(luku);
+        } else { 
+            luku = (luku * 3) + 1; 
+            System.out.println(luku);
+           
+        }
+           
     }
     
     public void kysyLuku() {
